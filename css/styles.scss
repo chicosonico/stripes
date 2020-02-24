@@ -1,0 +1,44 @@
+$colors:(
+    block1: #244F75,
+    block2: #60BFBF,
+    block3: #8C4B7E,
+    block4: #F8BB44,
+    block5: #F24B4B,
+);
+
+
+.strips__strip {
+    position: absolute;
+    width: 20%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+// @for $i from 1 through 5{
+//     strips__strip: nth-child($i){
+//         margin-left: margin-left + 20%;
+//         background-color: map-get($colors, block($i) );
+//     }
+
+// }
+
+.strips__strip:nth-child(1) {
+    left: 0;
+    background-color: map-get($colors, block1 );
+  }
+  .strips__strip:nth-child(2) {
+    left: 20vw;
+    background-color: map-get($colors, block2 );
+  }
+  .strips__strip:nth-child(3) {
+    left: 40vw;
+    background-color: map-get($colors, block3 );
+  }
+  .strips__strip:nth-child(4) {
+    left: 60vw;
+    background-color: map-get($colors, block4 );
+  }
+  .strips__strip:nth-child(5) {
+    left: 80vw;
+    background-color: map-get($colors, block5 );
+  }

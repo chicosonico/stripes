@@ -1,0 +1,32 @@
+.strips__strip {
+  position: absolute;
+  width: 20%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.strips__strip:nth-child(1) {
+  left: 0;
+  background-color: #244F75;
+}
+
+.strips__strip:nth-child(2) {
+  left: 20vw;
+  background-color: #60BFBF;
+}
+
+.strips__strip:nth-child(3) {
+  left: 40vw;
+  background-color: #8C4B7E;
+}
+
+.strips__strip:nth-child(4) {
+  left: 60vw;
+  background-color: #F8BB44;
+}
+
+.strips__strip:nth-child(5) {
+  left: 80vw;
+  background-color: #F24B4B;
+}
+/*# sourceMappingURL=styles.css.map */
