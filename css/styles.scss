@@ -12,6 +12,7 @@ $colors:(
     min-height: 100vh;
     overflow: hidden;
 }
+
 $leftV: 0;
  @for $i from 1 through 5{
    .strips__strip:nth-child(#{$i}){
@@ -59,15 +60,50 @@ $leftV: 0;
 }
 
 
+@for $y from 1 through 5{
+   .strips__strip:nth-child(#{$y}) {
+    animation: animation+($y);
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+ }
 
 
 
 
 
+@keyframes animation1 {
+  0%   {left: -500px;}
+  100% {left: 0px; top: 0px;}
+}
 
+@keyframes animation2 {
+  0%   {top: -500px;}
+  100% {top: 0px;}
+}
 
+@keyframes animation3{
+  0%   {bottom: -500px;}
+  100% {bottom: 0px;}
+}
 
-  
+@keyframes animation4{
+  0%   {top: -500px;}
+  100% {top: 0px;}
+}
+
+@keyframes animation5 {
+  0%   {left: 1500px;}
+  100% {right: 0px; top: 0px;}
+}
+
+ 
+
+h1 {
+  font-family: 'Lato';
+  font-size: 50px;
+  color: white;
+}
 
  
 

@@ -71,4 +71,149 @@
   transform: skew(0deg) scale(3) translate(0, 0);
   opacity: 0.1;
 }
+
+.strips__strip:nth-child(1) {
+  -webkit-animation: animation1;
+          animation: animation1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.strips__strip:nth-child(2) {
+  -webkit-animation: animation2;
+          animation: animation2;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.strips__strip:nth-child(3) {
+  -webkit-animation: animation3;
+          animation: animation3;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.strips__strip:nth-child(4) {
+  -webkit-animation: animation4;
+          animation: animation4;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.strips__strip:nth-child(5) {
+  -webkit-animation: animation5;
+          animation: animation5;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes animation1 {
+  0% {
+    left: -500px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes animation1 {
+  0% {
+    left: -500px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes animation2 {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes animation3 {
+  0% {
+    bottom: -500px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@keyframes animation3 {
+  0% {
+    bottom: -500px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+@-webkit-keyframes animation4 {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes animation4 {
+  0% {
+    top: -500px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@-webkit-keyframes animation5 {
+  0% {
+    left: 1500px;
+  }
+  100% {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes animation5 {
+  0% {
+    left: 1500px;
+  }
+  100% {
+    right: 0px;
+    top: 0px;
+  }
+}
+
+h1 {
+  font-family: 'Lato';
+  font-size: 50px;
+  color: white;
+}
 /*# sourceMappingURL=styles.css.map */
